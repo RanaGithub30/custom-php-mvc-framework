@@ -1,0 +1,20 @@
+Custom Commands Lists
+==============================
+
+1. Create Controller ==> php cli.php make:controller folderName Controllername
+
+    e.g. ==> php cli.php make:controller Auth AuthController
+
+    or 
+
+    e.g. ==> php cli.php make:controller AuthController
+
+
+2. Create Model ==> php cli.php make:model folderName Modelname
+
+    e.g. ==> php cli.php make:model Auth User 
+
+     or
+
+    e.g. ==> php cli.php make:model User
+

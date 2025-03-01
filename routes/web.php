@@ -7,4 +7,4 @@ use App\Router;
 use App\Http\Controllers\User\UserController; 
 
 Router::get('/', [UserController::class, 'index']);
-Router::get('/test', [UserController::class, 'test']);
+Router::get('/register', [UserController::class, 'register']);

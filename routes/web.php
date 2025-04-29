@@ -8,3 +8,5 @@ use App\Http\Controllers\User\UserController;
 
 Router::get('/', [UserController::class, 'index']);
 Router::get('/register', [UserController::class, 'register']);
+Router::post('/register/action', [UserController::class, 'registerAction']);
+Router::get('/get/all/users', [UserController::class, 'getAllUsers']);

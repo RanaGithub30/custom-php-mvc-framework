@@ -40,7 +40,9 @@ class MakeModel implements CommandInterface{
         $content = "<?php 
         namespace $namespace;
 
-        class $class_name {
+        use App\models\Model;
+
+        class $class_name extends Model{
             
         }
         ";
